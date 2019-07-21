@@ -2,32 +2,62 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.use {
+  list-style: none;
+}
+.list {
+  list-style: none;
+  margin-right: 120px;
+
+  width: 210px;
+  margin-left: 400px;
+  float: right;
+}
+button {
+  margin-left: 35px;
+}
+ul {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.user-names {
+  border-bottom: 1px solid gray;
+  font-size: 1em;
+}
+.details {
+  list-style: none;
+  margin-top: 0px;
+  padding-top: 20px;
+
+  margin-left: 10%;
+}
+.details li {
+  padding-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.user-details {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 15px;
+  padding-top: 10px;
+  border: solid 1px rgb(221, 213, 213);
+  width: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: black;
+}
+.user-img {
+  margin-left: 20px;
+  border-radius: 50%;
+}
+h2 {
+  margin-left: 30px;
+}
+.get-user {
+  padding-top: 10px;
+  padding-bottom: 12px;
+  margin-left: 100px;
+  box-shadow: 3px 3px rgb(224, 224, 223), -1em 0 0.4em rgb(224, 224, 223);
+  width: 90%;
 }
